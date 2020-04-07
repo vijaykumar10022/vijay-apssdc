@@ -1,0 +1,77 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.child{
+	width: 30%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+.p{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.c{
+	width: 25%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 3px 3px 3px 8px #000;
+	border-radius: 80px 80px 10px 0px;
+}
+.role{
+	color: #868892;
+	font-style: italic;
+
+}
+.contact{
+	text-align: left;
+}
+.info{
+	width: 15px;
+}
+.link{
+	margin: 1px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #5062b4;
+}
+.icon{
+	width: 30px;
+}
+.profile{
+	width: 50%;
+	border: 1px solid #ddd;
+	border-radius: 50px;
+}
+.center{
+	padding: 0% 50%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.c{
+	width: 90%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 3px 3px 3px 8px #000;
+	border-radius: 80px 80px 10px 0px;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 760px){
+	.c{
+	width: 45%;
+	border: 1px outset #ddd;
+	padding: 1%;
+	margin: 1%;
+	box-shadow: 3px 3px 3px 8px #000;
+	border-radius: 80px 80px 10px 0px;
+}
+}
