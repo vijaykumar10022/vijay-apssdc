@@ -18,6 +18,9 @@
 	flex-wrap: wrap;
 	
 }
+body{
+	background-color: #42FC19;
+}
 .c{
 	width: 25%;
 	border: 1px outset #ddd;
@@ -27,6 +30,9 @@
 	border-radius: 80px 80px 10px 0px;
 	text-align: center;
 	height: 400px;
+}
+.tq{
+	text-align: center;
 }
 .role{
 	color: #868892;
@@ -59,8 +65,7 @@
 	padding: 0% 50%;
 }
 ul li{
-	font-size: 18px;
-
+	font-size: 20px;
 }
 .child2 span{
 	border-radius: 10px;
